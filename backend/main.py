@@ -1,10 +1,10 @@
 # backend/main.py
-from backend.database import engine, Base
+from database import engine, Base
 # Create the database tables automatically when the app starts
 Base.metadata.create_all(bind=engine)
 from fastapi import FastAPI, Query
 from fastapi.middleware.cors import CORSMiddleware
-from backend.utils import steam_state_points
+from utils import steam_state_points
 
 app = FastAPI()
 
