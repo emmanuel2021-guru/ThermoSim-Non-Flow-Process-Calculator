@@ -1,8 +1,9 @@
-streamlit
 fastapi
 uvicorn
-sqlalchemy
-pandas
-requests
-plotly
 coolprop
+plotly
+pandas
+jinja2
+streamlit
+sqlalchemy
+requests
